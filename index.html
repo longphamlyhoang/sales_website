@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>sales_website</title>
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
+</head>
+
+<body>
+    <div class="app">
+        <header class="header">
+            <div class="grid">
+                <nav class="header_navbar">
+                    <ul class="header_navbar_list">
+                        <li class="header_navber_item">TIẾT KIỆM HƠN VỚI DỨNG DỤNG</li>
+                        <li class="header_navber_item">BÁN HÀNG CÙNG LAZADA</li>
+                        <li class="header_navber_item">CHĂM SÓC KHÁCH HÀNG</li>
+                        <li class="header_navber_item">KIỂM TRA ĐƠN HÀNG</li>
+                    </ul>
+                    <ul class="header_navbar_list">
+                        <li class="header_navber_item">
+                            <a href="" class="header_navber_item_link header_navber_item_link--separate">ĐĂNG NHẬP</a>
+                        </li>
+                        <li class="header_navber_item">
+                            <a href="" class="header_navber_item_link">ĐĂNG KÝ</a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="header-with-search">
+                    <div class="header_logo">
+                        <a id="logo" href="/">
+                            <img src="//laz-img-cdn.alicdn.com/images/ims-web/TB1T7K2d8Cw3KVjSZFuXXcAOpXa.png"
+                                style="height: 50px;" alt="Mua sắm online Lazada.vn Logo">
+                        </a>
+                    </div>
+                    <div class="header_search">
+                        <div class="header_search-input-wrap">
+                            <input type="text" class="header_search-input" placeholder="Nhập tìm kiếm sản phẩm">
+                            <div class="header_search-history">
+                                <p class="header_search-history-p">Lịch sử tìm kiếm</p>
+                                <ul class="header_search-history-list">
+                                    <li class="header_search-history-item">
+                                        <a href="">Kem tắm trắng</a>
+                                    </li>
+                                    <li class="header_search-history-item">
+                                        <a href="">Kem trị thâm</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="header_search-select">
+                            <span class="header_search-select-lable">Trong shop</span>
+                            <i class=" header_search-select-icon fas fa-angle-down"></i>
+                            <ul class="header_search-option">
+                                <li class="header_search-option-temp header_search-option-temp--action ">
+                                    <span>Trong shop</span>
+                                    <i class="fas fa-check-square"></i>
+                                </li>
+                                <li class="header_search-option-temp">
+                                    <span>Ngoài shop</span>
+                                    <i class="fas fa-check-square"></i>
+                                </li>
+                            </ul>
+                        </div>
+                        <button class="header_search-btn">
+                            <i class=" header_search-btn-icon fas fa-search"></i>
+                        </button>
+                    </div>
+                    <div class="header_cart">
+                        <i class="header_cart-icon fad fa-cart-plus"></i>
+                    </div>
+                </div>
+            </div>
+
+        </header>
+
+        <div class="container">
+            <nav class="category">
+                <h3 class="category_heading">
+                    <i class="fas fa-list"></i>
+                    Danh mục</h3>
+                <ul class="category-list">
+                    <li class="category-item category-item--active">
+                        <a href="#" class="category-item_link">Trang điểm mặt</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item_link">Trang điểm môi</a>
+                    </li>
+                    <li class="category-item">
+                        <a href="#" class="category-item_link">Trang điểm mắt</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <footer class="footer">
+
+        </footer>
+    </div>
+    <!-- modal layout -->
+    <!-- <div class="modal"> -->
+    <!-- <div class="modal_overlay"></div>
+        <div class="modal_body"> -->
+    <!--Register form-->
+    <!-- <div class="auth-form">
+                <div class="auth-form_container">
+                    <div class="auth-form_header">
+                        <h3 class="auth-form_heading">Đăng ký</h3>
+                        <span class="auth-form_swich-btn">Đăng nhập</span>
+                    </div>
+                    <div class="auth-form_form">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu cua bạn">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Nhập lại mật khẩu">
+                        </div>
+                    </div>
+
+                    <div class="auth-form_aside">
+                        <p class="auth-form_polisy-text">
+                            Bằng việc đăng kí,bạn có đồng ý với LAZADA về
+                            <a href="" class="auth-form_polisy-link">Điều khoản dịch vụ</a> &
+                            <a href="" class="auth-form_polisy-link">Chính sách bảo mật</a>
+                        </p>
+                    </div>
+
+                    <div class="auth-form_controls">
+                        <button class="btn auth-form_controls-back btn--normal">Trở lại</button>
+                        <button class="btn btn--primary">Đăng ký</button>
+                    </div>
+
+                </div>
+
+                <div class="auth-form_socials">
+                    <a href="" class=" auth-form_socials--fackbook btn btn--size-s btn--with-icon">
+                        
+                        <span>Kết nối với Facebook</span>
+                        
+                    </a>
+                    <a href="" class=" auth-form_socials--google btn btn--size-s btn--with-icon">
+                        
+                        Kết nối với Google
+                    </a>
+                </div>
+            </div> -->
+
+    <!--Login form-->
+    <!-- <div class="auth-form">
+                <div class="auth-form_container">
+                    <div class="auth-form_header">
+                        <h3 class="auth-form_heading">Đăng nhập</h3>
+                        <span class="auth-form_swich-btn">Đăng ký</span>
+                    </div>
+                    <div class="auth-form_form">
+                        <div class="auth-form_group">
+                            <input type="text" class="auth-form_input" placeholder="Email của bạn">
+                        </div>
+                        <div class="auth-form_group">
+                            <input type="password" class="auth-form_input" placeholder="Mật khẩu cua bạn">
+                        </div>
+                        
+                    </div>
+
+                    <div class="auth-form_aside">
+                        <div class="auth-form_help">
+                            <a href="" class="auth-form_help_link">Quên mật khẩu</a>
+                            <span class="auth-form_help-separate"></span>
+                            <a href="" class="auth-form_help_link">Cần trợ giúp?</a>
+                        </div>
+                    </div>
+
+                    <div class="auth-form_controls">
+                        <button class="btn auth-form_controls-back btn--normal">Trở lại</button>
+                        <button class="btn btn--primary">Đăng nhập</button>
+                    </div>
+
+                </div>
+
+                <div class="auth-form_socials">
+                    <a href="" class=" auth-form_socials--fackbook btn btn--size-s btn--with-icon">
+                        
+                        <span>Kết nối với Facebook</span>
+                        
+                    </a>
+                    <a href="" class=" auth-form_socials--google btn btn--size-s btn--with-icon">
+                        
+                        Kết nối với Google
+                    </a>
+                </div>
+            </div> -->
+    <!-- </div>
+    </div> -->
+    </div>
+</body>
+
+</html>
