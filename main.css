@@ -648,6 +648,17 @@
     position: relative;
     margin-top: 10px;
     background-color: white;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    box-shadow: 0 1px 2px 0 rgba(0,0,0,0.1);
+    transition: transforn linear 0,.1s;
+    will-change: transforn;
+}
+
+.home-product-item:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 1px 20px 0 rgba(0,0,0,0.05);
+
 }
 
 .home-product-item-img {
@@ -795,4 +806,114 @@ i.home-product-item-like-icon2 {
     position: relative;
     font-size: 600;
     margin-top: 3px;
+}
+
+.pagination {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    list-style: none;
+}
+
+.pagination-item-link {
+    display: block;
+    text-decoration: none;
+    font-size: 1.2rem;
+    color: #939393;
+    min-width: 40px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    border-radius: 2px;
+}
+
+.pagination-item-active .pagination-item-link {
+    background-color: #b61c0e;
+    color: white;
+}
+
+.pagination-item-active .pagination-item-link:hover {
+    background-color: #ff5748;
+}
+
+.home-product-pagination {
+    margin: 48px 0 32px 0;
+}
+
+.pagination-item {
+    margin: 0 12px;
+}
+
+.footer_downdoad-qa {
+    width: 80px;
+    height: 80px;
+    border: 1px solid grey;
+}
+
+.footer {
+    padding-top: 16px;
+    border-top: 4px solid red;
+}
+
+.footer_heading {
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: #595959;
+}
+
+.footer_list {
+    padding-left: 0;
+    list-style: none;
+}
+
+.footer_item_link {
+    text-decoration: none;
+    font-size: 1rem;
+    color: #737373;
+    padding: 6px 0;
+    display: flex;
+    align-items: center;
+}
+
+.footer_item_link:hover {
+    color: #e7574a;
+}
+
+.footer_item_icon {
+    font-size: 1.2rem;
+    margin: -1px 8px 0 0;
+}
+
+.footer_downdoad {
+    display: flex;
+}
+
+.footer_downdoad_app-img {
+    height: 30px;
+}
+
+.footer_downdoad_app {
+    flex: 1;
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.footer_downdoad_app-link {
+    color: transparent;
+    text-decoration: none;
+}
+
+.fooder_button {
+    padding: 8px 0;
+    background-color: #f5f5f5;
+    margin-top: 30px;
+}
+
+.footer_text {
+    margin: 0;
+    text-align: center;
+    font-size: 1rem;
+    color: #737373;
 }
